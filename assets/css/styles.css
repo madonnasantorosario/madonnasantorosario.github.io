@@ -1,0 +1,165 @@
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  color: #ffffff;
+  font-family: Adamina, serif;
+}
+
+:root {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+#socialblock {
+  width: 100%;
+  height: 20%;
+}
+
+#centralblock {
+  width: 100%;
+  height: 70%;
+  padding-top: 40px;
+}
+
+#footerblock {
+  width: 100%;
+  height: 10%;
+}
+
+#cover {
+  width: 100%;
+  height: 100%;
+  background: url("../../assets/img/cover.jpg") center / cover no-repeat;
+}
+
+#sigature {
+  text-align: center;
+  width: 100%;
+}
+
+#hide {
+  text-align: center;
+  font-size: 10px;
+  color: rgb(33, 37, 41);
+  height: 29%;
+  width: 100%;
+  background-color: green;
+  position: inherit;
+}
+
+
+
+#titleassociation {
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#descriptionpage {
+  max-width: 700px;
+  margin-top: 0px;
+  margin-bottom: 3rem;
+  font-weight: 20;
+  font-family: Adamina, serif;
+  text-align: center;
+}
+
+#buttonsitoveccchio {
+}
+
+#containerbutton {
+  width: 100%;
+  text-align: center;
+}
+
+#buttonsitovecchio:hover {
+  background: rgba(255,255,255,0.19);
+  color: #333333;
+  text-shadow: none;
+}
+
+#buttonsitovecchio {
+  border-width: 2px;
+  border-color: rgb(255,255,255);
+  padding: 10px 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 40px;
+  background: rgba(255,255,255,0);
+}
+
+
+#contentlink {
+  width: 100%;
+  height: 100%;
+}
+
+#iconfb {
+}
+
+.scl:hover {
+  color: white;
+}
+
+.scl {
+  margin-left: 30px;
+  color: white;
+  font-size: 18px;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 600px) {
+  #sigature {
+    font-size: 8px;
+    padding-top: 36px;
+  }
+  #descriptionpage {
+    font-size: 0.8rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #contentlink {
+    padding-top: 30px;
+    padding-right: 25px;
+    text-align: right;
+  }
+  #titleassociation {
+    font-size: 1.4rem;
+    letter-spacing: 10px;
+  }
+  #cover {
+	min-height: 652px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  #descriptionpage {
+    font-size: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contentlink {
+    padding-top: 36px;
+    padding-right: 50px;
+    text-align: right;
+  }
+  #sigature {
+    font-size: 12px;
+    padding-top: 26px;
+  }
+  #titleassociation {
+    font-size: 3.4rem;
+    letter-spacing: 15px;
+  }
+  #cover {
+	min-height: 942px;
+  }
+}
