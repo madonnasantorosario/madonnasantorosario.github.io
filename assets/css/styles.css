@@ -13,6 +13,14 @@ body {
   max-height: 100%;
 }
 
+::selection {
+  background:#FFDF00;
+}  
+
+::-moz-selection {
+  background:#FFDF00;
+}
+
 #socialblock {
   width: 100%;
   height: 20%;
