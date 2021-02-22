@@ -23,7 +23,7 @@ body {
 
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -103,7 +103,7 @@ body {
 
 #buttonsitovecchio:hover {
   background: rgba(68,68,68,0.2);
-  color: #FFDF00;
+  color: #FFFFFF;
   border-color: #FFDF00;
   text-shadow: none;
 }
