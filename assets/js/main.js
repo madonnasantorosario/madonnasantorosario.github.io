@@ -5,6 +5,6 @@ function ready() {
  }
 
 function sitostorico(){
-	location.href = "https://confraternitasantorosario.jimdofree.com/";
     /*location.href = "https://sitostorico.madonnasantorosario.it";*/
+	 window.open("https://confraternitasantorosario.jimdofree.com/");
 } 
