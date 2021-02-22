@@ -102,8 +102,9 @@ body {
 }
 
 #buttonsitovecchio:hover {
-  background: rgba(255,255,255,0.19);
-  color: #333333;
+  background: rgba(68,68,68,0.2);
+  color: #FFDF00;
+  border-color: #FFDF00;
   text-shadow: none;
 }
 
@@ -126,7 +127,7 @@ body {
 }
 
 .scl:hover {
-  color: white;
+  color: #FFDF00;
 }
 
 .scl {
