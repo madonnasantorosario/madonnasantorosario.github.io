@@ -150,7 +150,7 @@ body {
   box-shadow: none;
 }
 
-@media screen and (max-width: 705px) {
+@media screen and (max-width: 800px) {
   #sigature {
     font-size: 8px;
     padding-top: 36px;
@@ -178,7 +178,7 @@ body {
   }
 }
 
-@media screen and (min-width: 705px) {
+@media screen and (min-width: 800px) {
   #descriptionpage {
     font-size: 1.25rem;
     margin-left: auto;
