@@ -5,6 +5,6 @@ function ready() {
  }
 
 function sitostorico(){
-	 /*window.open("https://www.sitostorico.madonnasantorosario.it/");*/
-	 window.open("https://confraternitasantorosario.jimdofree.com/");
+	 window.open("https://www.sitostorico.madonnasantorosario.it/");
+	 /*window.open("https://confraternitasantorosario.jimdofree.com/");*/
 } 
